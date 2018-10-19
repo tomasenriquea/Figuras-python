@@ -1,7 +1,7 @@
 class Color:
 
     #CONSTRUCTOR
-    def __init__ (self, rojo, verde, azul):
+    def __init__ (self, rojo = None, verde = None, azul = None):
         self.__rojo = rojo
         self.__verde = verde
         self.__azul = azul

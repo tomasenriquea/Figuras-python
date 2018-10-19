@@ -1,10 +1,11 @@
 class Point:
 
     #CONSTRUCTOR
-    def __init__ (self, puntoX, puntoY):
+    # poniendo valores por defecto asi se puede crear un objeto sin tener que pasarle parametros.
+    def __init__ (self, puntoX = None, puntoY = None):
         self.__puntoX = puntoX
         self.__puntoY = puntoY
-
+       
 
     #GETTER
     def getPuntoX(self):
